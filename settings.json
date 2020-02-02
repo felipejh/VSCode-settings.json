@@ -1,0 +1,64 @@
+{
+    // Altera o tema e ícones
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": "material-icon-theme",
+
+    "editor.fontSize" : 14,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+
+    // Terminal no VSCode
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.fontSize" : 14,
+
+    // Codificação de texto
+    "files.encoding": "utf8bom",
+    "files.autoGuessEncoding": true,
+
+    // Usar div.input-group
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx",
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+    },
+
+    // Máximo de caracteres por linha
+    "editor.rulers" : [80, 120],
+
+    // Destaca a linha apenas na direita
+    "editor.renderLineHighlight" : "gutter",
+
+    // Tamanho da coluna na esquerda
+    "editor.tabSize": 2,
+
+    "editor.parameterHints.enabled": false,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "javascript.suggest.autoImports": false,
+
+    // Caminho do arquivo no título
+    "breadcrumbs.enabled" : true,
+
+    // ESLint
+    "[javascript]" : {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint" : true,
+        }
+    },
+    "[javascriptreact]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint" : true,
+        }
+    },
+    
+    // Check languages - Instalar extensão 'Code Spell Checker'
+    "cSpell.userWords": [
+        "gobarber",
+        "middlewares",
+        "postgres"
+    ],
+    "cSpell.language": "en,pt,pt_BR",
+
+    // Não mostra folders de forma compactada
+    "explorer.compactFolders": false,
+} 
